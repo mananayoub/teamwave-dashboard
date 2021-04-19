@@ -1,0 +1,110 @@
+.nav-heading {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 32px;
+  border-bottom: 1px solid rgba(11, 11, 13, 0.2);
+  padding-bottom: 16px;
+
+  .heading-left {
+    display: flex;
+    text-align: center;
+
+    div {
+      margin-right: 2px;
+    }
+
+    .item-1 {
+      background: #0b0b0d;
+      color: #ffffff;
+      width: 51px;
+      height: 32px;
+      border: 1px solid #0b0b0d;
+      border-radius: 6px 0px 0px 6px;
+      opacity: 1;
+      padding: 6px 18px;
+    }
+    .item-2 {
+      background: #e9ebef;
+      color: #0b0b0d;
+      width: 86px;
+      height: 32px;
+      border: 1px solid #0b0b0d0d;
+      padding: 6px 20px;
+
+      span {
+        border-left: 3px solid #1170fe;
+        padding-left: 5px;
+      }
+    }
+    .item-3 {
+      background: #e9ebef;
+      color: #0b0b0d;
+      width: 75px;
+      height: 32px;
+      border: 1px solid #0b0b0d0d;
+      border-radius: 0px 6px 6px 0px;
+      padding: 6px 18px;
+
+      span {
+        border-left: 3px solid #ffd500;
+        padding-left: 5px;
+      }
+    }
+  }
+  .heading-right {
+    display: flex;
+    text-align: center;
+
+    div:not(:last-child) {
+      margin-right: 8px;
+    }
+    .item-4 {
+      background: #e9ebef;
+      color: #0b0b0d;
+      width: 75px;
+      height: 32px;
+      border-radius: 6px;
+      padding: 6px 8px;
+    }
+    .item-5 {
+      background: #0b0b0d;
+      color: #ffffff;
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      padding: 4px;
+
+      img {
+        height: 16px;
+      }
+    }
+    .item-6 {
+      background: #0b0b0d;
+      color: #ffffff;
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      padding: 6px;
+
+      span {
+        font-size: 16px;
+      }
+    }
+    .item-7 {
+      display: flex;
+      align-items: center;
+      background: #1170fe;
+      color: #ffffff;
+      width: 100px;
+      height: 32px;
+      padding: 6px 16px;
+      border-radius: 6px;
+
+      .icon-chevron-down {
+        padding-left: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.sidenav {
+  width: 60px;
+  background: #ffffff;
+  height: 100%;
+  position: fixed;
+  padding: 20px 16px;
+  text-align: center;
+
+  .logo {
+    display: block;
+    margin-bottom: 47px;
+  }
+  .home {
+    display: inline-block;
+    background: #1170fe;
+    height: 32px;
+    width: 32px;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    padding-top: 5px;
+  }
+
+  .workspace-menu {
+    .nav-apps {
+      justify-content: center;
+
+      li {
+        margin-bottom: 24px;
+      }
+
+      .icon-project-icon {
+        color: #0b0b0d;
+      }
+    }
+    .nav-profile {
+      bottom: 0;
+      position: absolute;
+      flex-direction: column;
+
+      li:nth-child(1) {
+        padding-bottom: 28px;
+      }
+      li:nth-child(2) {
+        margin-bottom: 18px;
+      }
+      li:nth-child(3) {
+        border-top: 1px solid rgba(11, 11, 13, 0.2);
+        padding: 8px 0 12px;
+      }
+    }
+  }
+  .group-img {
+    height: 18px;
+  }
+}
