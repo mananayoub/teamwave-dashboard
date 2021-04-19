@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("/fonts/icomoon.eot?llw8m");
-  src: url("/fonts/icomoon.eot?llw8m#iefix") format("embedded-opentype"), url("/fonts/icomoon.ttf?llw8m") format("truetype"), url("/fonts/icomoon.woff?llw8m") format("woff"), url("/fonts/icomoon.svg?llw8m#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?llw8m");
+  src: url("fonts/icomoon.eot?llw8m#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?llw8m") format("truetype"), url("fonts/icomoon.woff?llw8m") format("woff"), url("fonts/icomoon.svg?llw8m#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
