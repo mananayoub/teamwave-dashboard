@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -19,6 +19,10 @@ body {
   height: auto;
   min-height: 100%;
   margin: 0 24px 0 75px;
+}
+
+.grid-section {
+  margin-top: 24px;
 }
 
 .sidenav {
@@ -48,8 +52,8 @@ body {
 
 .sidenav .workspace-menu .nav-apps {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sidenav .workspace-menu .nav-apps li {
@@ -65,8 +69,8 @@ body {
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .sidenav .workspace-menu .nav-profile li:nth-child(1) {
@@ -91,8 +95,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .topnav .topnav-item1 h3 {
@@ -146,8 +150,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 12px;
   font-weight: 700;
   margin-top: 32px;
@@ -257,8 +261,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #1170fe;
   color: #ffffff;
   width: 100px;
@@ -271,13 +275,335 @@ body {
   padding-left: 4px;
 }
 
+.content .content-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .content-heading img {
+  margin-right: 20px;
+}
+
+.content .content-heading h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.content .content-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.content .content-heading span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #f52121;
+}
+
+.content .content-activity {
+  margin-top: 32px;
+}
+
+.content .content-activity h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.content .content-activity .content-cells {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  padding: 0 16px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+}
+
+.content .content-activity .content-cells .content-checkbox {
+  margin-right: 18px;
+}
+
+.content .content-activity .content-cells .content-text {
+  margin-right: auto;
+  padding: 9px 0 7px 0;
+}
+
+.content .content-activity .content-cells .content-text h3 {
+  font-size: 14px;
+}
+
+.content .content-activity .content-cells .content-text h3 span {
+  background: #e9ebef;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.content .content-activity .content-cells .content-text p {
+  font-size: 12px;
+  margin-bottom: 0;
+  opacity: 0.5;
+}
+
+.content .content-activity .content-cells .content-text p span {
+  border-left: 3px solid #ffd500;
+  padding-right: 4px;
+}
+
+.content .content-activity .content-cells .content-cal p {
+  font-size: 12px;
+  color: #1170fe;
+}
+
+.content .content-activity .content-cells .content-cal .cal-g {
+  font-size: 12px;
+  color: #0b0b0d;
+  opacity: 0.5;
+}
+
+.content .content-task {
+  margin-top: 24px;
+}
+
+.content .content-task h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f52121;
+}
+
+.content .content-task .task-cells {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  padding: 0 16px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+}
+
+.content .content-task .task-checkbox {
+  margin-right: 18px;
+}
+
+.content .content-task .task-text {
+  margin-right: auto;
+  padding: 9px 0 7px 0;
+}
+
+.content .content-task .task-text h3 {
+  font-size: 14px;
+  color: #0b0b0d;
+}
+
+.content .content-task .task-text h3 span {
+  background: #e9ebef;
+  margin-left: 12px;
+}
+
+.content .content-task .task-text p {
+  font-size: 12px;
+  margin-bottom: 0;
+  opacity: 0.5;
+}
+
+.content .content-task .task-text p span {
+  border-left: 3px solid #1170fe;
+  padding-right: 4px;
+}
+
+.content .content-task .cent {
+  width: 37px;
+  height: 16px;
+  background: #d3425b;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 9px;
+  text-align: center;
+  margin-right: 24px;
+  padding: 2px 10px;
+}
+
+.content .content-task .task-cal p {
+  font-size: 12px;
+  color: #1170fe;
+  margin-bottom: 0;
+}
+
+.content .content-task .task-cal .cal-t {
+  font-size: 12px;
+  color: #0b0b0d;
+  opacity: 0.5;
+}
+
+.content .content-today {
+  margin-top: 24px;
+}
+
+.content .content-today h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.content .content-today .today-cells {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  padding: 0 16px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+}
+
+.content .content-today .today-checkbox {
+  margin-right: 18px;
+}
+
+.content .content-today .today-text {
+  margin-right: auto;
+  padding: 9px 0 7px 0;
+}
+
+.content .content-today .today-text h3 {
+  font-size: 14px;
+  color: #0b0b0d;
+}
+
+.content .content-today .today-text h3 span {
+  background: #e9ebef;
+  margin-left: 12px;
+}
+
+.content .content-today .today-text p {
+  font-size: 12px;
+  margin-bottom: 0;
+  opacity: 0.5;
+}
+
+.content .content-today .today-text p span {
+  border-left: 3px solid #1170fe;
+  padding-right: 4px;
+}
+
+.content .content-today .cent {
+  width: 37px;
+  height: 16px;
+  background: #f2aa23;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 9px;
+  text-align: center;
+  margin-right: 24px;
+  padding: 2px 10px;
+}
+
+.content .content-today .today-cal p {
+  font-size: 12px;
+  color: #1170fe;
+  margin-bottom: 0;
+}
+
+.content .content-today .today-cal .cal-t {
+  font-size: 12px;
+  color: #0b0b0d;
+  opacity: 0.5;
+}
+
+.content .content-upcoming {
+  margin-top: 24px;
+}
+
+.content .content-upcoming h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.frame-content .frame .frame-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.frame-content .frame .frame-heading h3 {
+  font-size: 14px;
+  margin-right: auto;
+}
+
+.frame-content .frame .frame-heading a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.frame-content .frame .frame-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  padding: 0 16px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.frame-content .frame .frame-box .icons {
+  width: 30px;
+  height: 28px;
+  background: #e9ebef;
+  color: #0b0b0d;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.frame-content .frame .frame-box .icons span {
+  padding: 7px;
+  font-size: 16px;
+}
+
+.frame-content .frame .frame-box .text {
+  margin-right: auto;
+}
+
+.frame-content .frame .frame-box .text h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1170fe;
+  margin-bottom: 0;
+}
+
+.frame-content .frame .frame-box .text p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.frame-content .frame .frame-box span {
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 24px;
+  opacity: 0.6;
+}
+
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?llw8m');
-  src: url('../fonts/icomoon.eot?llw8m#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?llw8m') format('truetype'),
-    url('../fonts/icomoon.woff?llw8m') format('woff'),
-    url('../fonts/icomoon.svg?llw8m#icomoon') format('svg');
+  src: url("../fonts/icomoon.eot?llw8m");
+  src: url("../fonts/icomoon.eot?llw8m#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?llw8m") format("truetype"), url("../fonts/icomoon.woff?llw8m") format("woff"), url("../fonts/icomoon.svg?llw8m#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
