@@ -222,12 +222,27 @@ body {
 }
 
 .nav-heading .heading-right .item-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #e9ebef;
   color: #0b0b0d;
   width: 75px;
   height: 32px;
   border-radius: 6px;
   padding: 6px 8px;
+  font-size: 12px;
+}
+
+.nav-heading .heading-right .item-4 .icon-filter {
+  font-size: 13px;
+  padding-right: 5px;
 }
 
 .nav-heading .heading-right .item-5 {
@@ -260,6 +275,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -542,6 +560,7 @@ body {
 .frame-content .frame .frame-heading h3 {
   font-size: 14px;
   margin-right: auto;
+  font-weight: 700;
 }
 
 .frame-content .frame .frame-heading a {
@@ -575,6 +594,7 @@ body {
 .frame-content .frame .frame-box .icons span {
   padding: 7px;
   font-size: 16px;
+  font-weight: 700;
 }
 
 .frame-content .frame .frame-box .text {
@@ -598,6 +618,109 @@ body {
   font-weight: 300;
   padding-bottom: 24px;
   opacity: 0.6;
+}
+
+.frame-content .frame-notice {
+  margin: 24px 0 12px 0;
+}
+
+.frame-content .frame-notice .frame-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.frame-content .frame-notice .frame-heading h3 {
+  font-size: 14px;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.frame-content .frame-notice .frame-heading a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.frame-content .frame-notice .notice-section {
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame {
+  padding: 20px 16px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame img {
+  margin-right: 10px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame input {
+  width: 304px;
+  height: 32px;
+  border: 1px solid #e9e9e980;
+  color: #0b0b0d;
+  opacity: 0.5;
+  background: #e9e9e980;
+  border-radius: 6px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame h5 {
+  font-size: 10px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .frame-img {
+  margin-right: 10px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text h3 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text h3 span {
+  opacity: 0.5;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text .notice-img {
+  height: 75px;
+  width: 75px;
+  margin-bottom: 13px;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text .icon-star-filled {
+  color: #f5ce0e;
+  opacity: 1;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .social-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.frame-content .frame-notice .notice-section .notice-frame .frame-info .social-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
 }
 
 @font-face {

@@ -61,12 +61,21 @@
       margin-right: 8px;
     }
     .item-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background: #e9ebef;
       color: #0b0b0d;
       width: 75px;
       height: 32px;
       border-radius: 6px;
       padding: 6px 8px;
+      font-size: 12px;
+
+      .icon-filter {
+        font-size: 13px;
+        padding-right: 5px;
+      }
     }
     .item-5 {
       background: #0b0b0d;
@@ -94,6 +103,7 @@
     }
     .item-7 {
       display: flex;
+      justify-content: center;
       align-items: center;
       background: #1170fe;
       color: #ffffff;
@@ -350,6 +360,7 @@
       h3 {
         font-size: 14px;
         margin-right: auto;
+        font-weight: 700;
       }
 
       a {
@@ -378,6 +389,7 @@
         span {
           padding: 7px;
           font-size: 16px;
+          font-weight: 700;
         }
       }
 
@@ -400,6 +412,94 @@
         font-weight: 300;
         padding-bottom: 24px;
         opacity: 0.6;
+      }
+    }
+  }
+
+  .frame-notice {
+    margin: 24px 0 12px 0;
+    .frame-heading {
+      display: flex;
+
+      h3 {
+        font-size: 14px;
+        margin-right: auto;
+        font-weight: 700;
+      }
+
+      a {
+        font-size: 12px;
+        text-decoration: none;
+      }
+    }
+
+    .notice-section {
+      background: #ffffff;
+      border-radius: 6px;
+
+      .notice-frame {
+        padding: 20px 16px;
+
+        img {
+          margin-right: 10px;
+        }
+        input {
+          width: 304px;
+          height: 32px;
+          border: 1px solid #e9e9e980;
+          color: #0b0b0d;
+          opacity: 0.5;
+          background: #e9e9e980;
+          border-radius: 6px;
+        }
+        h5 {
+          font-size: 10px;
+          margin-top: 20px;
+          opacity: 0.5;
+        }
+
+        .frame-info {
+          display: flex;
+          margin-top: 10px;
+          .frame-img {
+            margin-right: 10px;
+          }
+          .notice-text {
+            h3 {
+              font-size: 12px;
+              font-weight: 700;
+              span {
+                opacity: 0.5;
+              }
+            }
+            p {
+              font-size: 14px;
+              opacity: 0.8;
+            }
+
+            .notice-img {
+              height: 75px;
+              width: 75px;
+              margin-bottom: 13px;
+              border-radius: 6px;
+              opacity: 0.9;
+            }
+            .icon-star-filled {
+              color: #f5ce0e;
+              opacity: 1;
+            }
+          }
+
+          .social-1 {
+            display: flex;
+            font-size: 12px;
+            padding-bottom: 20px;
+          }
+          .social-2 {
+            display: flex;
+            font-size: 12px;
+          }
+        }
       }
     }
   }
