@@ -25,6 +25,25 @@ body {
   margin-top: 24px;
 }
 
+.text-low {
+  opacity: 0.3;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-section {
+  width: calc(100% - 320px);
+  margin-right: 25px;
+}
+
+.right-section {
+  width: 320px;
+}
+
 .sidenav {
   width: 60px;
   background: #ffffff;
@@ -361,6 +380,7 @@ body {
   background: #e9ebef;
   border-radius: 50%;
   margin-right: 12px;
+  padding: 4px;
 }
 
 .content .content-activity .content-cells .content-text p {
@@ -576,25 +596,29 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 60px;
+  height: 50px;
   padding: 0 16px;
   border-radius: 6px;
   margin-bottom: 5px;
 }
 
 .frame-content .frame .frame-box .icons {
-  width: 30px;
-  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: #e9ebef;
   color: #0b0b0d;
   margin-right: 10px;
   border-radius: 7px;
+  padding: 8px;
+  -webkit-box-shadow: 0px 5px 30px #2a55ff0d;
+          box-shadow: 0px 5px 30px #2a55ff0d;
 }
 
 .frame-content .frame .frame-box .icons span {
-  padding: 7px;
   font-size: 16px;
-  font-weight: 700;
+  padding-bottom: 0;
+  color: #0b0b0d;
 }
 
 .frame-content .frame .frame-box .text {
@@ -602,22 +626,20 @@ body {
 }
 
 .frame-content .frame .frame-box .text h4 {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   color: #1170fe;
   margin-bottom: 0;
 }
 
 .frame-content .frame .frame-box .text p {
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 
 .frame-content .frame .frame-box span {
   font-size: 12px;
-  font-weight: 300;
   padding-bottom: 24px;
-  opacity: 0.6;
 }
 
 .frame-content .frame-notice {
@@ -655,13 +677,15 @@ body {
 }
 
 .frame-content .frame-notice .notice-section .notice-frame input {
-  width: 304px;
+  width: 100%;
   height: 32px;
   border: 1px solid #e9e9e980;
   color: #0b0b0d;
   opacity: 0.5;
   background: #e9e9e980;
   border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
 }
 
 .frame-content .frame-notice .notice-section .notice-frame h5 {
@@ -677,13 +701,10 @@ body {
   margin-top: 10px;
 }
 
-.frame-content .frame-notice .notice-section .notice-frame .frame-info .frame-img {
-  margin-right: 10px;
-}
-
 .frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text h3 {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text h3 span {
@@ -691,7 +712,7 @@ body {
 }
 
 .frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text p {
-  font-size: 14px;
+  font-size: 13px;
   opacity: 0.8;
 }
 

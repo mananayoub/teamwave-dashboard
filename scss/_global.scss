@@ -24,3 +24,20 @@ body {
 .grid-section {
   margin-top: 24px;
 }
+
+.text-low {
+  opacity: 0.3;
+}
+
+.main-section {
+  display: flex;
+}
+
+.left-section {
+  width: calc(100% - 320px);
+  margin-right: 25px;
+}
+
+.right-section {
+  width: 320px;
+}
