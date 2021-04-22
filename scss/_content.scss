@@ -213,6 +213,7 @@
     }
     .task-cells {
       display: flex;
+      align-items: center;
       background: #ffffff;
       align-items: center;
       height: 60px;
@@ -230,12 +231,8 @@
       h3 {
         font-size: 14px;
         color: #0b0b0d;
-
-        span {
-          background: #e9ebef;
-          margin-left: 12px;
-        }
       }
+
       p {
         font-size: 12px;
         margin-bottom: 0;
@@ -279,7 +276,6 @@
     h3 {
       font-size: 14px;
       font-weight: 700;
-      margin-bottom: 12px;
     }
     .today-cells {
       display: flex;
@@ -303,6 +299,14 @@
         span {
           background: #e9ebef;
           margin-left: 12px;
+        }
+      }
+
+      .bd-y {
+        margin-top: 5px;
+
+        span {
+          border-left: 3px solid #ffd500;
         }
       }
       p {
@@ -474,7 +478,7 @@
               }
             }
             p {
-              font-size: 13px;
+              font-size: 13 px;
               opacity: 0.8;
             }
 
