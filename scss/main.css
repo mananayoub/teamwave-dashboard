@@ -79,6 +79,17 @@ h3 {
   font-size: 12px;
 }
 
+.d-flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 2px;
+}
+
 .sidenav {
   width: 60px;
   background: #ffffff;
@@ -360,6 +371,7 @@ h3 {
 .content .content-heading h3 {
   font-size: 14px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .content .content-heading p {
@@ -378,53 +390,42 @@ h3 {
   margin-top: 32px;
 }
 
-.content .content-activity h3 {
+.content .content-activity h4 {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
 .content .content-activity .content-cells {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background: #ffffff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 60px;
-  padding: 0 16px;
   border-radius: 7px;
-  margin-bottom: 2px;
-}
-
-.content .content-activity .content-cells .content-checkbox {
-  margin-right: 18px;
+  padding: 0 16px;
 }
 
 .content .content-activity .content-cells .content-text {
-  margin-right: auto;
   padding: 9px 0 7px 0;
 }
 
 .content .content-activity .content-cells .content-text h3 {
   font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .content .content-activity .content-cells .content-text h3 span {
+  font-size: 12px;
   background: #e9ebef;
   border-radius: 50%;
   margin-right: 12px;
   padding: 4px;
 }
 
-.content .content-activity .content-cells .content-text p {
+.content .content-activity .content-cells .content-text .activity-p {
   font-size: 12px;
   margin-bottom: 0;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
-.content .content-activity .content-cells .content-text p span {
+.content .content-activity .content-cells .content-text .activity-p span {
   border-left: 3px solid #ffd500;
   padding-right: 4px;
 }
@@ -444,33 +445,30 @@ h3 {
   margin-top: 24px;
 }
 
-.content .content-task h3 {
+.content .content-task h4 {
   font-size: 14px;
   font-weight: 700;
   color: #f52121;
 }
 
 .content .content-task .task-cells {
+  background: #ffffff;
+  padding: 0 16px;
+  border-radius: 7px;
+}
+
+.content .content-task .task-cells .task-cell-heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #ffffff;
-  align-items: center;
-  height: 60px;
-  padding: 0 16px;
-  border-radius: 7px;
-  margin-bottom: 2px;
 }
 
-.content .content-task .task-checkbox {
-  margin-right: 18px;
+.content .content-task .task-cells .task-cell-heading h3 {
+  color: #0b0b0d;
+  margin-bottom: 0;
 }
 
 .content .content-task .task-text {
-  margin-right: auto;
   padding: 9px 0 7px 0;
 }
 
@@ -482,7 +480,7 @@ h3 {
 .content .content-task .task-text p {
   font-size: 12px;
   margin-bottom: 0;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .content .content-task .task-text p span {
@@ -512,37 +510,25 @@ h3 {
   font-size: 12px;
   color: #0b0b0d;
   opacity: 0.5;
+  padding-bottom: 13px;
 }
 
 .content .content-today {
   margin-top: 24px;
 }
 
-.content .content-today h3 {
+.content .content-today h4 {
   font-size: 14px;
   font-weight: 700;
 }
 
 .content .content-today .today-cells {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background: #ffffff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 60px;
   padding: 0 16px;
   border-radius: 7px;
-  margin-bottom: 2px;
-}
-
-.content .content-today .today-checkbox {
-  margin-right: 18px;
 }
 
 .content .content-today .today-text {
-  margin-right: auto;
   padding: 9px 0 7px 0;
 }
 
@@ -567,7 +553,7 @@ h3 {
 .content .content-today .today-text p {
   font-size: 12px;
   margin-bottom: 0;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .content .content-today .today-text p span {
@@ -597,16 +583,16 @@ h3 {
   font-size: 12px;
   color: #0b0b0d;
   opacity: 0.5;
+  padding-bottom: 13px;
 }
 
 .content .content-upcoming {
   margin-top: 24px;
 }
 
-.content .content-upcoming h3 {
+.content .content-upcoming h4 {
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
 .frame-content .frame .frame-heading {
@@ -750,7 +736,7 @@ h3 {
 }
 
 .frame-content .frame-notice .notice-section .notice-frame .frame-info .notice-text p {
-  font-size: 13 px;
+  font-size: 13px;
   opacity: 0.8;
 }
 

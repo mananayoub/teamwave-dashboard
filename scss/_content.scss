@@ -132,6 +132,7 @@
     h3 {
       font-size: 14px;
       font-weight: 700;
+      margin-bottom: 10px;
     }
 
     p {
@@ -149,41 +150,33 @@
   .content-activity {
     margin-top: 32px;
 
-    h3 {
+    h4 {
       font-size: 14px;
       font-weight: 700;
       margin-bottom: 12px;
     }
     .content-cells {
-      display: flex;
       background: #ffffff;
-      align-items: center;
-      height: 60px;
-      padding: 0 16px;
       border-radius: 7px;
-      margin-bottom: 2px;
+      padding: 0 16px;
 
-      .content-checkbox {
-        margin-right: 18px;
-      }
       .content-text {
-        margin-right: auto;
         padding: 9px 0 7px 0;
         h3 {
           font-size: 14px;
-
+          margin-bottom: 5px;
           span {
+            font-size: 12px;
             background: #e9ebef;
             border-radius: 50%;
             margin-right: 12px;
             padding: 4px;
           }
         }
-        p {
+        .activity-p {
           font-size: 12px;
           margin-bottom: 0;
-          opacity: 0.5;
-
+          opacity: 0.8;
           span {
             border-left: 3px solid #ffd500;
             padding-right: 4px;
@@ -206,27 +199,25 @@
 
   .content-task {
     margin-top: 24px;
-    h3 {
+    h4 {
       font-size: 14px;
       font-weight: 700;
       color: #f52121;
     }
     .task-cells {
-      display: flex;
-      align-items: center;
       background: #ffffff;
-      align-items: center;
-      height: 60px;
       padding: 0 16px;
       border-radius: 7px;
-      margin-bottom: 2px;
-    }
 
-    .task-checkbox {
-      margin-right: 18px;
+      .task-cell-heading {
+        display: flex;
+        h3 {
+          color: #0b0b0d;
+          margin-bottom: 0;
+        }
+      }
     }
     .task-text {
-      margin-right: auto;
       padding: 9px 0 7px 0;
       h3 {
         font-size: 14px;
@@ -236,7 +227,7 @@
       p {
         font-size: 12px;
         margin-bottom: 0;
-        opacity: 0.5;
+        opacity: 0.8;
 
         span {
           border-left: 3px solid #1170fe;
@@ -266,6 +257,7 @@
         font-size: 12px;
         color: #0b0b0d;
         opacity: 0.5;
+        padding-bottom: 13px;
       }
     }
   }
@@ -273,24 +265,16 @@
   .content-today {
     margin-top: 24px;
 
-    h3 {
+    h4 {
       font-size: 14px;
       font-weight: 700;
     }
     .today-cells {
-      display: flex;
       background: #ffffff;
-      align-items: center;
-      height: 60px;
       padding: 0 16px;
       border-radius: 7px;
-      margin-bottom: 2px;
-    }
-    .today-checkbox {
-      margin-right: 18px;
     }
     .today-text {
-      margin-right: auto;
       padding: 9px 0 7px 0;
       h3 {
         font-size: 14px;
@@ -304,7 +288,6 @@
 
       .bd-y {
         margin-top: 5px;
-
         span {
           border-left: 3px solid #ffd500;
         }
@@ -312,7 +295,7 @@
       p {
         font-size: 12px;
         margin-bottom: 0;
-        opacity: 0.5;
+        opacity: 0.8;
 
         span {
           border-left: 3px solid #1170fe;
@@ -341,6 +324,7 @@
         font-size: 12px;
         color: #0b0b0d;
         opacity: 0.5;
+        padding-bottom: 13px;
       }
     }
   }
@@ -348,10 +332,9 @@
   .content-upcoming {
     margin-top: 24px;
 
-    h3 {
+    h4 {
       font-size: 14px;
       font-weight: 700;
-      margin-bottom: 12px;
     }
   }
 }
@@ -478,7 +461,7 @@
               }
             }
             p {
-              font-size: 13 px;
+              font-size: 13px;
               opacity: 0.8;
             }
 
