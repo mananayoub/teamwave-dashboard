@@ -80,6 +80,13 @@ h3 {
 }
 
 table {
-  border-collapse: separate;
-  border-spacing: 0 2px;
+  width: 100%;
+}
+
+.div-icon-1,
+.div-icon-2 {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  padding-right: 5px;
 }
